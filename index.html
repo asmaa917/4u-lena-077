@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="علاقات واعية.. حياة مستقرة - برنامج تدريبي للشباب من 20 إلى 40 سنة لبناء علاقات صحية والاستعداد للحياة الأسرية.">
+<title>علاقات واعية | البرنامج التدريبي</title>
+<style>
+:root{--navy:#142b3b;--teal:#1e7773;--gold:#d7ad65;--cream:#f7f4ed;--ink:#20313c;--muted:#687782;--white:#fff;--line:#e4e8e6}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Tahoma,Arial,sans-serif;background:var(--cream);color:var(--ink);line-height:1.85}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{background:rgba(20,43,59,.97);color:white;position:sticky;top:0;z-index:10;box-shadow:0 5px 20px #10253222}
+nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:12px 0}.brand{display:flex;align-items:center;gap:10px;font-weight:bold}.brand svg{width:48px;height:48px}.brand small{display:block;color:#d9c59f;font-weight:normal;font-size:11px}
+.links{display:flex;gap:18px;flex-wrap:wrap;font-size:13px;color:#e6edef}.links a:hover{color:var(--gold)}
+.btn{display:inline-block;border:0;border-radius:999px;padding:13px 24px;font-weight:bold;cursor:pointer;background:var(--gold);color:#172b38;transition:.2s}.btn:hover{transform:translateY(-2px);filter:brightness(1.04)}.btn.secondary{background:var(--teal);color:white}.btn.ghost{background:transparent;border:1px solid #ffffff80;color:white}
+.hero{background:linear-gradient(120deg,#122b3b 0%,#1b4c56 68%,#247b75 100%);color:white;padding:86px 0 76px;overflow:hidden;position:relative}
+.hero:after{content:"";position:absolute;width:430px;height:430px;border:1px solid #ffffff20;border-radius:50%;left:-130px;top:-170px;box-shadow:0 0 0 38px #ffffff08,0 0 0 78px #ffffff06}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center;position:relative;z-index:1}
+.eyebrow{color:#e6c78d;font-weight:bold;letter-spacing:.3px}.hero h1{font-size:clamp(36px,5vw,60px);line-height:1.25;margin:12px 0}.hero p{font-size:18px;color:#e4edef;max-width:680px}
+.hero-card{background:#ffffff12;border:1px solid #ffffff35;border-radius:28px;padding:28px;backdrop-filter:blur(8px)}.hero-card .quote{font-size:26px;font-weight:bold;color:#f1d7a7;line-height:1.5}.hero-card p{font-size:15px}
+.pills{display:flex;gap:9px;flex-wrap:wrap;margin:22px 0}.pill{border:1px solid #ffffff50;border-radius:30px;padding:5px 13px;font-size:13px;color:#f3f3ed}
+section{padding:70px 0}.section-head{text-align:center;max-width:760px;margin:0 auto 38px}.section-head h2{font-size:32px;color:var(--navy);margin:0 0 8px}.section-head p{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:0 10px 30px #20313c08}.card h3{margin:8px 0;color:var(--navy)}.icon{font-size:26px}.card p{margin:0;color:var(--muted);font-size:14px}
+.soft{background:#eef2ef}.two{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+ul.clean{padding:0 20px 0 0;margin:10px 0}ul.clean li{margin:7px 0}
+.module{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:12px 0}.module strong{color:var(--teal)}.module p{margin:5px 0 0;color:var(--muted);font-size:14px}
+.tag{display:inline-block;background:#e8f1ee;color:#22655f;border-radius:20px;padding:3px 10px;font-size:12px;margin:4px}
+.callout{background:var(--navy);color:white;border-radius:26px;padding:34px}.callout h2{color:white;margin-top:0}.callout p{color:#dce7e8}
+.ad{background:linear-gradient(135deg,#122b3b,#1d6869);color:white;border-radius:28px;padding:42px;text-align:center;position:relative;overflow:hidden}.ad:before{content:"";position:absolute;inset:12px;border:1px solid #d7ad6570;border-radius:20px;pointer-events:none}.ad h2{font-size:clamp(28px,4vw,44px);line-height:1.4;margin:10px 0;color:#f3d69f}.ad .hook{font-size:21px;font-weight:bold;max-width:780px;margin:0 auto 15px}.ad p{color:#e3eceb}
+.price{font-size:36px;font-weight:bold;color:var(--gold);margin:8px}
+form{display:grid;gap:12px}input,textarea,select{width:100%;padding:13px 14px;border:1px solid #d8e0dd;border-radius:12px;font:inherit;background:#fff}textarea{min-height:100px}
+.note{font-size:12px;color:var(--muted)}.payment{border:2px dashed #b9c9c3;border-radius:18px;padding:22px;background:#f9fbf9}.payline{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:12px 0}.payvalue{font-weight:bold;color:var(--navy);background:white;border:1px solid var(--line);padding:10px 15px;border-radius:10px;direction:ltr}
+footer{background:#102735;color:#d9e4e5;padding:34px 0;text-align:center}footer small{color:#9db0b4}
+@media(max-width:800px){.hero-grid,.two{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}.links{display:none}.hero{padding:58px 0}}
+@media(max-width:520px){.grid{grid-template-columns:1fr}.hero-card{padding:22px}.ad{padding:30px 20px}section{padding:52px 0}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+<a class="brand" href="#top" aria-label="الصفحة الرئيسية">
+<svg viewBox="0 0 100 100" role="img" aria-label="شعار علاقات واعية">
+<circle cx="50" cy="50" r="46" fill="none" stroke="#d7ad65" stroke-width="3"/>
+<path d="M50 75 C17 57 24 30 43 31 C53 31 57 41 50 49 C43 41 47 31 57 31 C76 30 83 57 50 75Z" fill="none" stroke="#f5e7c9" stroke-width="4" stroke-linejoin="round"/>
+<path d="M50 18 V27 M22 50 H31 M69 50 H78" stroke="#d7ad65" stroke-width="3" stroke-linecap="round"/>
+</svg>
+<span>علاقات واعية<small>وعي • تواصل • استقرار</small></span></a>
+<div class="links"><a href="#about">عن البرنامج</a><a href="#curriculum">المحتوى</a><a href="#method">طريقة التعلم</a><a href="#register">التسجيل</a></div>
+<a class="btn" href="#register">احجز مقعدك</a>
+</nav></div></header>
+
+<main id="top">
+<section class="hero"><div class="wrap hero-grid">
+<div><div class="eyebrow">برنامج تدريبي عملي للشباب | 20–40 سنة</div>
+<h1>علاقات واعية..<br>حياة مستقرة</h1>
+<p>افهم نفسك أولاً، وتعلّم كيف تختار بوعي، وتتواصل باحترام، وتبني علاقة صحية قائمة على النضج والمسؤولية.</p>
+<div class="pills"><span class="pill">دروس فيديو بصوت المدرب</span><span class="pill">من دون ظهور أمام الكاميرا</span><span class="pill">تطبيقات عملية</span></div>
+<a class="btn" href="#register">ابدأ رحلتك الآن</a> <a class="btn ghost" href="#curriculum">اكتشف المحاور</a>
+</div>
+<div class="hero-card"><div class="quote">«العلاقة الناجحة لا تبدأ بالعثور على الشخص المناسب فقط.. بل بأن تصبح أنت أكثر وعياً واستعداداً»</div><p>برنامج تثقيفي وتدريبي يساعدك على بناء فهم أوضح للذات والعلاقات والاستعداد للحياة الأسرية.</p><div class="tag">وعي ذاتي</div><div class="tag">مهارات تواصل</div><div class="tag">اختيار مسؤول</div></div>
+</div></section>
+
+<section id="about"><div class="wrap"><div class="section-head"><h2>عن المشروع التدريبي</h2><p>تصور أولي لشركة تدريب واستشارات أسرية تقدم برامج رقمية وورشاً تطبيقية للشباب.</p></div>
+<div class="grid">
+<div class="card"><div class="icon">🎯</div><h3>الرؤية</h3><p>المساهمة في نشر ثقافة الوعي بالعلاقات والاستعداد الأسري، من خلال محتوى علمي مبسط وتدريب عملي يحترم اختلاف الأفراد وظروفهم.</p></div>
+<div class="card"><div class="icon">🧭</div><h3>الرسالة</h3><p>تقديم برامج تساعد الشباب على فهم احتياجاتهم وحدودهم، وتحسين الحوار، واتخاذ قرارات أكثر نضجاً في العلاقات.</p></div>
+<div class="card"><div class="icon">🤝</div><h3>الخدمات المقترحة</h3><p>كورسات مسجلة، لقاءات مباشرة، ورش مهارات، جلسات إرشاد أسري ضمن نطاق التأهيل المهني، ومواد تثقيفية رقمية.</p></div>
+</div></div></section>
+
+<section class="soft"><div class="wrap two">
+<div><h2>لمن صُمم البرنامج؟</h2><p>للشباب والشابات من 20 إلى 40 سنة، سواء كانوا في مرحلة التعارف أو الخطوبة أو الزواج، أو يرغبون في فهم أنماطهم العاطفية والتواصلية بشكل أفضل.</p>
+<ul class="clean"><li>من يريد فهم ذاته واحتياجاته وحدوده.</li><li>من يستعد للارتباط ويريد الاختيار بوعي.</li><li>من يرغب في تحسين الحوار وإدارة الخلاف.</li><li>من يريد بناء تصور واقعي عن الزواج والمسؤولية.</li></ul></div>
+<div class="callout"><h2>النتيجة التعليمية المستهدفة</h2><p>بنهاية البرنامج، يُتوقع أن يكون المتدرب أكثر قدرة على وصف احتياجاته، والتمييز بين التوقعات الواقعية وغير الواقعية، واستخدام أدوات حوار وإدارة خلاف، ووضع خطوات عملية لعلاقة صحية.</p><small>ملاحظة: البرنامج تعليمي وتثقيفي، ولا يُعد بديلاً عن العلاج النفسي أو التدخل المتخصص عند الحاجة.</small></div>
+</div></section>
+
+<section id="curriculum"><div class="wrap"><div class="section-head"><h2>الحقيبة التدريبية والكورس</h2><p>خطة مقترحة من 8 وحدات، قابلة للتعديل وفق خبرتك المهنية والجمهور المستهدف.</p></div>
+<div class="two"><div>
+<div class="module"><strong>الوحدة 1 | اكتشاف الذات والوعي العاطفي</strong><p>مفهوم الوعي الذاتي، القيم، الاحتياجات، نقاط القوة، المحفزات الانفعالية، والتمييز بين الاحتياج والتوقع.</p><span class="tag">3 دروس • 45 دقيقة</span></div>
+<div class="module"><strong>الوحدة 2 | فهم أنماط العلاقات</strong><p>أنماط التفاعل، التعلق بصورة تثقيفية، أثر الخبرات السابقة، والمؤشرات التي تستحق التوقف والتفكير.</p><span class="tag">3 دروس • 50 دقيقة</span></div>
+<div class="module"><strong>الوحدة 3 | الاختيار الواعي والتوافق</strong><p>القيم المشتركة، التوافق والاختلاف، الأسئلة المهمة قبل الارتباط، والعلامات التحذيرية دون أحكام متسرعة.</p><span class="tag">4 دروس • 60 دقيقة</span></div>
+<div class="module"><strong>الوحدة 4 | مهارات التواصل الفعّال</strong><p>الإنصات، التعبير عن المشاعر، الطلب الواضح، لغة الاحترام، والحوار وقت التوتر.</p><span class="tag">3 دروس • 50 دقيقة</span></div>
+</div><div>
+<div class="module"><strong>الوحدة 5 | إدارة الخلاف والحدود</strong><p>الاختلاف الصحي، التهدئة، التفاوض، الاعتذار، الحدود الشخصية، ومتى نطلب مساعدة متخصصة.</p><span class="tag">3 دروس • 55 دقيقة</span></div>
+<div class="module"><strong>الوحدة 6 | الاستعداد للحياة الأسرية</strong><p>الأدوار والمسؤوليات، التوقعات، المال، الوقت، العلاقة مع العائلتين، واتخاذ القرارات المشتركة.</p><span class="tag">4 دروس • 60 دقيقة</span></div>
+<div class="module"><strong>الوحدة 7 | التحديات المعاصرة</strong><p>التأثير الرقمي، الخصوصية، المقارنة الاجتماعية، الغيرة، الثقة، والتوازن بين الحياة الشخصية والعلاقة.</p><span class="tag">3 دروس • 45 دقيقة</span></div>
+<div class="module"><strong>الوحدة 8 | خطة علاقة واعية</strong><p>مراجعة التعلم، صياغة مبادئ شخصية، خطة تطبيق لمدة 30 يوماً، وتقييم ختامي.</p><span class="tag">2 درسان • 35 دقيقة</span></div>
+</div></div>
+<div class="card" style="margin-top:20px"><h3>مكونات الحقيبة التدريبية</h3><p>دليل المدرب • دليل المتدرب • شرائح العرض • أوراق عمل • مواقف تطبيقية • أسئلة نقاش • اختبار قبلي وبعدي • تقييم رضا • خطة متابعة 30 يوماً.</p></div>
+</div></section>
+
+<section class="soft" id="method"><div class="wrap"><div class="section-head"><h2>كيف نصنع الفيديو بصوتك دون إظهار صورتك؟</h2><p>نحافظ على حضورك كمدرب من خلال صوتك وأسلوبك، مع تصميم بصري متناسق.</p></div>
+<div class="grid">
+<div class="card"><div class="icon">🎙️</div><h3>1. تسجيل الصوت</h3><p>تسجل كل درس في مكان هادئ باستخدام هاتف جيد أو ميكروفون USB، ثم تنقية الضوضاء وضبط مستوى الصوت.</p></div>
+<div class="card"><div class="icon">🖥️</div><h3>2. بناء المشاهد</h3><p>شرائح مختصرة، كلمات مفتاحية، رسوم وأيقونات، مخططات، ومواقف تمثيلية مكتوبة دون الحاجة لظهورك.</p></div>
+<div class="card"><div class="icon">🎬</div><h3>3. المونتاج والتصدير</h3><p>مزامنة صوتك مع الشرائح، إضافة ترجمة عربية، موسيقى خلفية مرخصة عند الحاجة، ثم تصدير MP4 بجودة 1080p.</p></div>
+</div>
+<div class="two" style="margin-top:24px"><div class="card"><h3>قالب ثابت لكل درس</h3><ul class="clean"><li>افتتاحية بسؤال أو موقف واقعي.</li><li>هدف الدرس في جملة واحدة.</li><li>شرح من 3 إلى 5 نقاط.</li><li>مثال تطبيقي أو حالة افتراضية.</li><li>تمرين قصير وسؤال للتأمل.</li><li>خلاصة وتكليف بسيط.</li></ul></div>
+<div class="card"><h3>نموذج افتتاحية بصوتك</h3><p>«هل فكرت يوماً لماذا تتكرر نفس الخلافات في علاقات مختلفة؟ وهل المشكلة دائماً في اختيار الشخص الآخر؟ في هذا البرنامج، سنبدأ من نقطة أهم: فهم أنفسنا، واحتياجاتنا، والطريقة التي نتواصل بها. أهلاً بك في علاقات واعية.. حياة مستقرة».</p></div></div>
+</div></section>
+
+<section><div class="wrap"><div class="ad">
+<div class="eyebrow">إعلان إطلاق البرنامج • الدفعة الأولى</div>
+<h2>قبل ما تختار شريك حياتك.. اختار إنك تفهم نفسك!</h2>
+<div class="hook">مش كل علاقة بتبدأ بحب بتكمل باستقرار.. الوعي هو اللي بيصنع الفرق.</div>
+<p>انضم لبرنامج «علاقات واعية.. حياة مستقرة» وتعلّم أدوات عملية لفهم الذات، والتواصل، وإدارة الخلاف، والاستعداد للحياة الأسرية.</p>
+<p><strong>للشباب من 20 إلى 40 سنة | محتوى مسجل بصوت المدرب | تطبيقات وأوراق عمل</strong></p>
+<a class="btn" href="#register">سجّل الآن واحجز مكانك</a>
+</div>
+<div class="card" style="margin-top:20px"><h3>نص إعلان قصير للسوشيال ميديا</h3><p>«بتدور على علاقة مستقرة؟ البداية مش نصايح رومانسية.. البداية إنك تفهم نفسك، تعرف احتياجاتك، وتتعلم تتكلم وتختلف باحترام. برنامج علاقات واعية.. حياة مستقرة، رحلة تدريبية للشباب من 20 لـ40 سنة. احجز مكانك وابدأ تبني وعيك من النهارده».</p></div>
+</div></section>
+
+<section id="register" class="soft"><div class="wrap"><div class="section-head"><h2>التسجيل والدفع</h2><p>استبدل بيانات التواصل والدفع التجريبية ببياناتك الفعلية قبل نشر الصفحة.</p></div>
+<div class="two">
+<div class="card"><h3>طلب الالتحاق بالبرنامج</h3>
+<form id="regForm">
+<input id="fullName" required placeholder="الاسم بالكامل">
+<input id="phone" required type="tel" placeholder="رقم الهاتف / واتساب">
+<input id="email" type="email" placeholder="البريد الإلكتروني (اختياري)">
+<select id="age" required><option value="">الفئة العمرية</option><option>20–25</option><option>26–30</option><option>31–35</option><option>36–40</option></select>
+<textarea id="goal" placeholder="ما الذي تتمنى الاستفادة منه في البرنامج؟"></textarea>
+<button class="btn secondary" type="submit">إرسال بيانات التسجيل عبر واتساب</button>
+<p class="note">يجب إضافة رقم واتساب الشركة داخل كود الصفحة في المتغير WHATSAPP_NUMBER.</p>
+</form></div>
+<div class="card"><h3>رسوم الاشتراك والدفع</h3><div class="price">[السعر] جنيه</div>
+<div class="payment"><strong>الدفع عبر InstaPay</strong>
+<p>عنوان الدفع أو رقم الهاتف المسجل على InstaPay:</p>
+<div class="payline"><span class="payvalue" id="ipa">[أدخل رقم InstaPay أو IPA هنا]</span><button class="btn secondary" type="button" onclick="copyIPA()">نسخ بيانات الدفع</button></div>
+<p class="note">بعد التحويل، أرسل صورة الإيصال واسم المتدرب إلى رقم واتساب الشركة لتأكيد الحجز. راجع اسم المستفيد قبل تأكيد التحويل.</p>
+<a class="btn" href="https://www.instapay.eg/" target="_blank" rel="noopener">افتح موقع InstaPay الرسمي</a>
+</div>
+<p class="note">هذا الزر يفتح الموقع الرسمي ولا ينفذ التحويل تلقائياً. لإتاحة تجربة دفع مباشرة، استخدم رابط دفع/طلب تحصيل أو QR معتمداً ومولداً من حسابك، ثم استبدل رابط الزر به.</p>
+</div></div></div></section>
+
+<section><div class="wrap two">
+<div><h2>خطة إطلاق الشركة خلال 90 يوماً</h2><ul class="clean"><li><strong>الأسبوع 1–2:</strong> تحديد الاسم التجاري، الجمهور، الرسالة، الخدمات، والتحقق من متطلبات تأسيس النشاط والتراخيص المحلية.</li><li><strong>الأسبوع 3–4:</strong> كتابة المحتوى والسيناريوهات، إعداد الحقيبة، وتجهيز الهوية البصرية.</li><li><strong>الأسبوع 5–6:</strong> تسجيل الصوت وإنتاج الدروس والمواد المساندة.</li><li><strong>الأسبوع 7–8:</strong> إنشاء صفحة الهبوط ونموذج التسجيل وآلية الدفع وخدمة العملاء.</li><li><strong>الأسبوع 9–10:</strong> إطلاق تجريبي لمجموعة صغيرة وجمع الملاحظات.</li><li><strong>الأسبوع 11–12:</strong> تحسين المحتوى وإطلاق حملة تسويقية وفتح التسجيل للدفعة التالية.</li></ul></div>
+<div class="card"><h3>مؤشرات قياس النجاح</h3><ul class="clean"><li>عدد المهتمين الذين سجلوا بياناتهم.</li><li>نسبة التحويل من المهتمين إلى مشتركين.</li><li>نسبة إكمال الدروس.</li><li>نتائج التقييم القبلي والبعدي.</li><li>رضا المتدربين والتوصيات.</li><li>عدد طلبات الاستشارات أو البرامج المتقدمة.</li></ul><p class="note">قبل البيع، راجع المؤهلات المهنية، وحدود الخدمة، وسياسة الخصوصية والاسترداد، وشروط الإعلان وحماية بيانات المتدربين.</p></div>
+</div></section>
+</main>
+<footer><div class="wrap"><strong>علاقات واعية.. حياة مستقرة</strong><p>إعداد وتقديم: [اسم المدرب] • [اسم الشركة]</p><small>© <span id="year"></span> جميع الحقوق محفوظة. هذا البرنامج تثقيفي وتدريبي وليس بديلاً عن الرعاية النفسية أو الطبية المتخصصة.</small></div></footer>
+<script>
+// عدّل البيانات التالية قبل نشر الموقع:
+const INSTA_PAY = "[أدخل رقم InstaPay أو IPA هنا]";
+const WHATSAPP_NUMBER = "20XXXXXXXXXX"; // مثال: كود مصر 20 ثم الرقم دون +
+document.getElementById("year").textContent = new Date().getFullYear();
+document.getElementById("ipa").textContent = INSTA_PAY;
+function copyIPA(){
+ if(INSTA_PAY.includes("أدخل")){alert("يرجى إضافة رقم InstaPay أو عنوان IPA أولاً.");return;}
+ navigator.clipboard.writeText(INSTA_PAY).then(()=>alert("تم نسخ بيانات الدفع."));
+}
+document.getElementById("regForm").addEventListener("submit",function(e){
+ e.preventDefault();
+ if(WHATSAPP_NUMBER.includes("X")){alert("يرجى إضافة رقم واتساب الشركة في كود الصفحة أولاً.");return;}
+ const msg = `طلب تسجيل في برنامج علاقات واعية%0Aالاسم: ${encodeURIComponent(document.getElementById("fullName").value)}%0Aالهاتف: ${encodeURIComponent(document.getElementById("phone").value)}%0Aالبريد: ${encodeURIComponent(document.getElementById("email").value)}%0Aالعمر: ${encodeURIComponent(document.getElementById("age").value)}%0Aالهدف: ${encodeURIComponent(document.getElementById("goal").value)}`;
+ window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`,"_blank");
+});
+</script>
+</body></html>
